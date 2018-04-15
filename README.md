@@ -2,7 +2,7 @@
 Poll weather data from Weather Underground and publish it via MQTT.
 
 ## Usage
-mqtt-traffic can be configured using environment variables:
+mqtt-wunderground can be configured using environment variables:
 
 - **MQTT_WUNDERGROUND_API_KEY:** Your [Weather Underground API Key](http://www.wunderground.com/weather/api/)
 - **MQTT_WUNDERGROUND_LOCATION:** Location. If you want to specify a station, use `pws:<STATION ID>`
