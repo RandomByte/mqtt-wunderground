@@ -1,0 +1,28 @@
+{
+  "name": "mqtt-wunderground",
+  "version": "1.0.0",
+  "description": "Poll weather data from Weather Underground and publish it via MQTT.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "eslint ./"
+  },
+  "author": "Merlin Beutlberger",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RandomByte/mqtt-wunderground.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RandomByte/mqtt-wunderground/issues"
+  },
+  "homepage": "https://github.com/RandomByte/mqtt-wunderground#readme",
+  "dependencies": {
+    "mqtt": "^2.17.0",
+    "wundergroundnode": "^0.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1"
+  }
+}
